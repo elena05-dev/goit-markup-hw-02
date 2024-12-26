@@ -45,3 +45,22 @@ body {
     font-weight: 400;
     line-height: 1.5;
 }
+
+.heder1 {
+    font-size: 56;
+    font-weight: 700;
+    line-height: 1.07;
+
+}
+
+.logo {
+    font-family: Raleway;
+    font-size: 18;
+    font-weight: 700;
+    line-height: 1.17;
+    color: #2e2f42;
+}
+
+.web {
+    color: #4d5ae5;
+}
