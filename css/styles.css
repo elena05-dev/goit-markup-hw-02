@@ -41,6 +41,10 @@ body {
     color: #2e2f42;
 }
 
+.section-name {
+    background-color: #ffffff;
+}
+
 .section-title {
     font-size: 20px;
     font-weight: 500;
