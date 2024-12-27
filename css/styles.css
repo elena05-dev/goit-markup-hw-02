@@ -24,16 +24,21 @@
 }
 
 body {
-    font-family: "Roboto", "Arial", serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
+
+
 
 .title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 
 .section-title {
@@ -67,6 +72,13 @@ body {
 
 }
 
+
+.section-person {
+    background-color: #f4f4fd;
+}
+
+
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -77,8 +89,9 @@ body {
     text-transform: uppercase;
 }
 
-.studio {
+.studio-black {
     color: #2e2f42;
+
 }
 
 
@@ -86,6 +99,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -106,6 +120,12 @@ ul li:first-child .custom-link:focus {
     color: #2e2f42;
 }
 
+.info {
+    font-style: normal;
+}
+
+
+
 .address a {
     font-family: "Roboto";
     font-size: 16px;
@@ -120,6 +140,19 @@ ul li:first-child .custom-link:focus {
     color: #404bbf;
 }
 
+.mailto {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #434455
+}
+
+.tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #434455
+}
 
 .order-service-button {
     font-family: "Roboto", sans-serif;
@@ -138,7 +171,16 @@ ul li:first-child .custom-link:focus {
     background-color: #404bbf;
 }
 
+
 .text-footer {
     color: #f4f4fd;
-    letter-spacing: 0.02em
+    line-height: 1.5;
+}
+
+.footer-section {
+    background-color: #2e2f42;
+}
+
+.studio {
+    color: #f4f4fd
 }
